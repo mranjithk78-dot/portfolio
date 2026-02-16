@@ -1,0 +1,52 @@
+body{
+    background-image: url("AI.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+body{
+    color: aqua;
+}
+address{
+    background-color: aqua;
+    border-radius: 20px;
+    text-align:center;
+}
+img{
+    border-radius: 70% ;
+    
+}
+    
+a{
+    text-decoration-line:none;
+}
+#name{
+    height: 150px;
+    width: 400px;
+    background-color: aqua;
+    border-radius:50%;
+    animation-name: circle;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes circle {
+    0%{
+        background-color: red;
+    }
+    25%{
+        background-color:greenyellow ;
+    }
+    50%{
+        background-color: lightblue;
+    }
+    100%{
+        background-color: aqua;
+        transform: rotate(360deg);
+    }
+}
+img:hover{
+    transform:scale(1.1) ; 
+}
+#welcome:hover{
+    transform: scale(1.5);
+}
